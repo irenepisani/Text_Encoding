@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- 
+    studente: Irene Pisani
+    matricola: 560104
+    corso: Codifica di testi 19/20
+-->
+
+<!-- esercizio gerarachie sovrapposte : VERSIONE SBAGLIATA -->
+
+<text>
+    <titolo> Il fu Mattia Pascal </titolo>
+    <autore> Luigi Pirandello </autore>
+    <intestazione> I. Premessa </intestazione>
+
+    <pagina n="3">
+    <p> Una delle poche cose, anzi forse la sola ch'io sapessi 
+    di certo era questa: che mi chiamavo Mattia Pascal. E 
+    me ne approfittavo [...] </p>
+    <p> Ma ignoravo allora che cosa volesse dire il non sapere 
+    neppure questo, il non poter più rispondere, cioè, come
+    prima, all'occorrenza: - Io mi chiamo Mattia Pascal.
+    </pagina>
+    <pagina n="4">
+    </p>
+    <p>Qualcuno vorrà bene compiangermi (costa così po-
+    co), immaginado l'atroce cordoglio d'un disgraziato, 
+    al qule avvenga di scoprire tutt'a un tratto che... 
+    [...]</p>
+    </pagina>
+</text>
+
+<!-- OUTPUT XMLLINT 
+xml13-b.xml:23: parser error : expected '>'
+    </pagina>
+       ^
+xml13-b.xml:25: parser error : Opening and ending tag mismatch: pagina line 24 and p
+    </p>
+        ^
+-->
