@@ -1,0 +1,17 @@
+<!-- esercizio DTD -->
+
+<!ELEMENT TEI (header,facsimile?,testo+)> 
+<!ELEMENT header (#PCDATA)>  
+<!ELEMENT facsimile (#PCDATA)>      
+<!ELEMENT testo (#PCDATA|seg)*> 
+<!ELEMENT seg (#PCDATA)>
+
+<!ATTLIST header 
+    type CDATA #FIXED "intestazione"
+    lang NMTOKEN #IMPLIED>
+<!ATTLIST facsimile
+    source CDATA #REQUIRED
+    ref IDREFS #IMPLIED>
+<!ATTLIST testo
+    id ID #REQUIRED
+    type CDATA #IMPLIED>

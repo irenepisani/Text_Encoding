@@ -1,0 +1,4 @@
+<!-- esercizio DTD -->
+
+<!ELEMENT radice (figlio)>
+<!ELEMENT figlio (#PCDATA)>

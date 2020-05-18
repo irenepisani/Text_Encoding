@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Esercizio: Collegare una dtd esterna ad file xml-->
+<!DOCTYPE TEI SYSTEM "./xml8.dtd">
+
+<TEI>
+    <header type="intestazione" lang="IT"> 
+        contenuto testuale dell'elemento header 
+    </header>
+    <facsimile source="facsimilesource" ref="x"> 
+        contenuto testuale dell'elemento header
+    </facsimile>
+    <testo id="x" type="description"> 
+        <seg>
+            contenuto testuale dell'elemento seg
+        </seg>
+            contenuto testuale dell'elemento testo
+    </testo>
+</TEI>

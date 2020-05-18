@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Esercizio: Collegare una dtd esterna ad file xml-->
+<!DOCTYPE radice SYSTEM "./xml10.dtd">
+
+<radice>
+    <figlio>
+        contenuto testuale di figlio
+    </figlio>
+</radice>

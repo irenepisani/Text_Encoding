@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<!--
+    Gerarchie e elementi annidati  
+
+    esempio corretto 
+    elemento padre p ha contenuto misto (elementi annidati e testo)
+    elementi figli sono fratelli fra loro e hanno contenuto solo testuale
+-->
+
+<p> 
+<salutation>Salve</salutation> 
+il mio nome è 
+<persname>Irene</persname> 
+</p>

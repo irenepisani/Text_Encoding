@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<!--  Gerarchie e elementi annidati  -->
+
+<!-- versione corretta
+Info sulla gerarchia:
+"choice" è l'elemento padre di "sic" e "cor"
+"sic" e "cor" sono figli di "choice", sono elementi annidati
+"sic" e "cor" sono fratelli/sibling, sono sullo stesso livello, non sono annidati uno dentro l'altro
+Non c'è sovrapposizione di gerarchia, i contenuti sono ben annidati
+Info sui contenuti: 
+"choice" ha contenuto fatto di soli altri elementi annidati, non ha contenuto testuale diretto, solo contenuto strutturato
+"sic" e "cor" hanno solo contento testuale, contenuto diretto di testo
+
+<choice>
+    <sic> testo con errore</sic>
+    <cor> testo corretto</cor>
+</choice>
+
+-->
+<choice>
+    <sic>testo con errore<cor> errore </sic>
+    testo corretto </cor>
+</choice> 
+
+<!-- versione sbagliata
+    Questo è un esempio di gerarchia sovrapposta. 
+    Gli elementi non sono annidati in maniera corretta.
+    la porzione di testo annotata con i tag "cor" e "sic" descrive gerarchie sovrapposte
+
+    OUTPUT XMLLINT:
+    xml2.xml:22: parser error : Opening and ending tag mismatch: cor line 22 and sic
+    <sic>testo con errore<cor> errore </sic>
+    xml2.xml:23: parser error : Opening and ending tag mismatch: sic line 22 and cor
+    testo corretto </cor>
+-->
+
+
+

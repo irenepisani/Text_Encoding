@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding ="utf-8" standalone="yes"?>
+
+<!-- Documenti xml wellformed -->
+
+<!-- versione sbaliata 
+
+<text>
+    <firstchild> primo figlio </firstchild>
+    <secondchild> secondo figlio </secondchild>
+</text>
+</text>
+
+OUTPUT XMLLINT:
+xml5.xml:11: parser error : Extra content at the end of the document
+</text>
+^
+-->
+
+<!-- Versione corretta-->
+
+ <text>
+    <firstchild> primo figlio </firstchild>
+    <secondchild> secondo figlio </secondchild>
+</text>

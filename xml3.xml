@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<!-- Gerarchie e elementi annidati  -->
+
+<!-- versione corretta
+<choice>
+    <b> testo in bold</b>
+    <i> testo in italic </i>
+</choice>
+-->
+
+<!-- versione sbagliata
+    struttura gerarchica sovrapposta, xml non la permette 
+-->
+
+<choice>
+    <b> testo in bold e <i> bold italico </b> testo in italico</i>
+</choice>
+
+<!-- OUTPUT XMLLINT:
+    xml3.xml:17: parser error : Opening and ending tag mismatch: i line 17 and b
+    <b> testo in bold e <i> bold italico </b> testo in italico</i>
+                                             ^
+    xml3.xml:17: parser error : Opening and ending tag mismatch: b line 17 and i
+    <b> testo in bold e <i> bold italico </b> testo in italico</i>
+                                                                  ^
+-->
