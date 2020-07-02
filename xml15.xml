@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- studente: Irene Pisani
+    matricola: 560104
+    corso: codifica di testi 19/20 
+-->
+
+<!-- es suddivisione strutturale + tag TEI -->
+
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            
+            <titleStmt>
+                <title>La luna e i falò: versione elettronica</title>
+                <respStmt>
+                    <resp>Codifica TEI P5 </resp>
+                    <name>Irene Pisani</name>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Università di Pisa</publisher>
+                <date>maggio 2020</date>
+            </publicationStmt>
+
+            <sourceDesc>
+                <bibl>
+                <title>La luna e i falò</title>
+                    <author>Cesare Pavese</author>
+                    <publisher>Einaudi SPA</publisher>
+                    <date>2005</date>
+                </bibl> 
+            <listPlace>
+                    <place xml:id="canelli">
+                        <placeName>Canelli</placeName>
+                        <country>Italia</country>
+                    </place>
+                    <place xml:id="Barbaresco"></place>
+                    <place xml:id="alba"></place>
+                    <place xml:id="monticello">
+                        <placeName>Monticello</placeName>
+                        <country>Italia</country>
+                    </place>
+                    <place xml:id="neive">
+                        <placeName>neive</placeName>
+                        <country>Italia</country>
+                    </place>
+                    <place xml:id="Alessandria">
+                        <placeName>Alessandria</placeName>
+                        <country>Italia</country>
+                    </place>
+                    <place xml:id="Gaminella">
+                        <placeName>Alessandria</placeName>
+                        <country>Italia</country>
+                    </place>
+                </listPlace>
+
+                <listPerson>
+                    <person xml:id="Padrino">
+                        <persName>Padrino</persName>
+                    </person>
+                    <person xml:id="Giulia">
+                        <persName>Giulia</persName>
+                    </person>
+                    <person xml:id="Virgilia">
+                        <persName>Virgilia</persName>
+                    </person>
+                    <person xml:id="Angiolina">
+                        <persName>Angiolina</persName>
+                    </person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+                
+    <text>
+        <front>
+            
+                <titlePage>
+                    <docAuthor>Cesare Pavese</docAuthor>
+                    <docTitle>
+                        <titlePart>La luna e i falò</titlePart>
+                    </docTitle>
+                    <docImprint> 
+                        <publisher>Einaudi editori</publisher>
+                    </docImprint>        
+                </titlePage>
+            
+            <div type="dedication">
+                <p>for C.
+                Ripness in all</p>
+            </div>
+             <div type = "dedication">
+                <epigraph>
+                    <cit>
+                        <quote>
+                            for C.
+                            Ripness in all
+                        </quote>    
+                    </cit>
+                </epigraph>
+            </div>
+        </front>
+        <body>
+
+        <div type="chapter">
+            <head>I.</head>
+
+            <ab type="paragrafo" n="1">
+            <pb n="1"/> 
+                <lb n="1"/> C'è una ragione perché sono tornato in questo paese, qui e
+                <lb n="2"/>non invece a <placeName ref="#canelli">Canelli</placeName>, a <placeName ref="#Barbaresco">Barbaresco</placeName> o in <placeName ref="#alba">Alba</placeName>. Qui
+                 non ci sono
+                <lb n="3"/>nato, è quasi certo; dove son nato non lo so; non c'è da queste
+                <lb n="4"/>parti una casa né un pezzo di terra né delle ossa ch'io possa dire 
+                <lb n="5"/><quote>«Ecco cos'ero prima di nascere»</quote>. Non so se vengo dalla <w lemma="collina">col
+                <lb n="6"/>lina</w> o dalla valle, dai boschi o da una casa di balconi. La ragazza 
+                <lb n="7"/>che mi ha lasciato sugli scalini del duomo di <placeName ref="#alba">Alba</placeName>, magari non 
+                <lb n="8"/>veniva neanche dalla campagna, magari era la figlia dei <w lemma="padroni">padro
+                <lb n="9"/>ni</w> di un palazzo, oppure mi ci hanno portato in un cavagno da
+                <lb n="10"/>vendemmia due povere donne da <placeName ref="#monticello">Monticello</placeName>, da <placeName ref="#neive">Neive</placeName> o <w lemma="perchè">per
+                <lb n="11"/>che</w>́ no da <placeName ref="#cravanzana">Cravanzana</placeName>. Chi può dire di che carne sono fatto? 
+                <lb n="12"/>Ho girato abbastanza il mondo da sapere che tutte le carni <w lemma="sono">so
+                <lb n="13"/>no</w> buone e si equivalgono, ma è per questo che uno si stanca e 
+                <lb n="14"/>cerca di mettere radici, di farsi terra e paese, perché la sua carne 
+                <lb n="15"/>valga e duri qualcosa di più che un comune giro di stagione.
+            </ab>
+            <ab n="2" type="paragrafo">
+                <lb n="16"/>Se sono cresciuto in questo paese, devo dir grazie alla <persName ref="#Virgilia"><w lemma="Virgilia">Vir
+                <lb n="17"/>gilia</w></persName>, a <persName ref="#Padrino">Padrino</persName>, tutta gente che non c'è più, anche se loro mi 
+                <lb n="18"/>hanno preso e allevato soltanto perché l'ospedale di <placeName ref="#Alessandria">Alessandria</placeName>
+                <lb n="19"/> gli passava la mesata. Su queste colline quarant'anni fa c'erano 
+                <lb n="20"/>dei dannati che per vedere uno scudo d'argento si caricavano
+                <lb n="21"/> un bastardo dell'ospedale, oltre ai figli che avevano già. C'era
+                <lb n="22"/>chi prendeva una bambina per averci poi la servetta e <w lemma="comandarla">comand
+                <lb n="23"/>darla</w> meglio; la  <persName ref="#Virgilia">Virgilia</persName> volle me perché di figlie ne aveva gi
+                <lb n="24"/>due, e quando fossi un po' cresciuto speravano di aggiustarsi in 
+                <lb n="25"/>una grossa cascina e lavorare tutti quanti e star bene. <persName ref="#Padrino">Padrino</persName>
+
+            <pb n="2"/>
+                <lb n="26"/>aveva allora il casotto di Gaminella — due stanze e una stalla — 
+                <lb n="27"/>la capra e quella riva dei noccioli. Io venni su con le ragazze, ci 
+                <lb n="28"/>rubavamo la polenta, dormivamo sullo
+                stesso saccone, <persName ref="#Angiolina"><w lemma="Angiolina">Angioli
+                <lb n="29"/>na</w></persName> la maggiore aveva un anno più di me; e soltanto a dieci <w lemma="anni">an
+                <lb n="30"/>ni</w>, nell'inverno quando morí la <persName ref="#Virgilia">Virgilia</persName>, seppi per caso che non
+                <lb n="31"/> ero suo fratello. Da quell'inverno <persName ref="#Angiolina">Angiolina</persName> giudiziosa dovette
+                <lb n="32"/>smettere di girare con noi per la riva e per i boschi; accudiva
+                <lb n="33"/> alla casa, faceva il pane e le robiole, andava lei a ritirare in <w lemma="municipio">mu
+                <lb n="34"/>nicipio</w> il mio scudo; io mi vantavo con <persName ref="#Giulia">Giulia</persName> di valere cinque 
+                <lb n="35"/>lire, le dicevo che lei non fruttava niente e chiedevo a <persName ref="#Padrino">Padrino</persName> perché non prendevamo altri bastardi.
+            </ab>
+            <ab n="3" type="paragrafo">
+                <lb n="36"/>Adesso sapevo ch'eravamo dei miserabili, perché soltanto 
+                <lb n="37"/>i miserabili allevano i bastardi dell'ospedale. Prima, quando
+                <lb n="38"/> correndo a scuola gli altri mi dicevano bastardo, io credevo che 
+                <lb n="39"/>fosse un nome come vigliacco o vagabondo e rispondevo per le 
+                <lb n="40"/>rime. Ma ero già un ragazzo fatto e il municipio non ci pagava
+                <lb n="41"/> più lo scudo, che io ancora non avevo ben capito che non <w lemma="anni">esse
+                <lb n="42"/>re</w> figlio di <persName ref="#Padrino">Padrino</persName> e della <persName ref="#Virgilia">Virgilia</persName> voleva dire non essere nato
+                <lb n="43"/> in <placeName ref="#Gaminella">Gaminella</placeName>, non essere sbucato da sotto i noccioli o dall'<w lemma="orecchio">orec
+                <lb n="44"/>chio</w> della nostra capra come le ragazze.
+            </ab>
+            <ab n="4" type="paragrafi">
+                L'altr'anno, quando tornai la prima volta in paese, venni 
+                <lb n="45"/>quasi di nascosto a rivedere i noccioli. La collina di <placeName ref="#Gaminella">Gaminella</placeName>, 
+                <lb n="46"/>un versante lungo e ininterrotto di vigne e di rive, un pendío 
+                <lb n="47"/>cosí insensibile che alzando la testa non se ne vede la cima — e 
+                <lb n="48"/>in cima, chi sa dove, ci sono altre vigne, altri boschi, altri <w lemma="sentieri">sen
+                <lb n="49"/>tieri</w> — era come scorticata dall'inverno, mostrava il nudo della 
+                <lb n="50"/>terra e dei tronchi. La vedevo bene, nella luce asciutta, <w lemma="digradare">digra
+                <lb n="51"/>dare</w> gigantesca verso <placeName ref="#canelli">Canelli</placeName> dove la nostra valle finisce.
+            </ab> 
+            <gap reason="editorial"/> [...]
+            </div>
+        </body>
+        <back><!-- non sono presenti note o appendici --></back>
+    </text>
+</TEI>
+
+<!-- validato con postvalid -->
