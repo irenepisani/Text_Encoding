@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- studente: Irene Pisani
+    matricola: 560104
+    corso: codifica di testi 19/20 
+
+ es TEI zoner, facsimile lettera di bellini scelta (LL1.15) -->
+
+    <facsimile>
+        <surface n="1" >
+            <graphic url='LL1.15_0001.jpg' width='1770px' height='2479px' />
+            <zone n="0" ulx="965" uly="109" lrx="1696" lry="243" rendition="Line" />
+            <zone n="1" ulx="464" uly="276" lrx="1713" lry="398" rendition="Line" />
+            <zone n="2" ulx="321" uly="394" lrx="1724" lry="491" rendition="Line" />
+            <zone n="3" ulx="324" uly="497" lrx="1715" lry="572" rendition="Line" />
+            <zone n="4" ulx="322" uly="588" lrx="1723" lry="687" rendition="Line" />
+            <zone n="5" ulx="298" uly="691" lrx="1295" lry="751" rendition="Line" />
+            <zone n="6" ulx="453" uly="772" lrx="1719" lry="862" rendition="Line" />
+            <zone n="7" ulx="313" uly="873" lrx="1707" lry="975" rendition="Line" />
+            <zone n="8" ulx="306" uly="980" lrx="1711" lry="1057" rendition="Line" />
+            <zone n="9" ulx="338" uly="1071" lrx="1705" lry="1137" rendition="Line" />
+            <zone n="10" ulx="330" uly="1148" lrx="1721" lry="1244" rendition="Line" />
+            <zone n="11" ulx="327" uly="1256" lrx="1709" lry="1334" rendition="Line" />
+            <zone n="12" ulx="319" uly="1349" lrx="1724" lry="1432" rendition="Line" />
+            <zone n="13" ulx="299" uly="1439" lrx="1721" lry="1533" rendition="Line" />
+            <zone n="14" ulx="320" uly="1540" lrx="1647" lry="1621" rendition="Line" />
+            <zone n="15" ulx="325" uly="1634" lrx="1671" lry="1725" rendition="Line" />
+            <zone n="16" ulx="340" uly="1739" lrx="1718" lry="1804" rendition="Line" />
+            <zone n="17" ulx="356" uly="1816" lrx="1726" lry="1915" rendition="Line" />
+            <zone n="18" ulx="358" uly="1924" lrx="1684" lry="2010" rendition="Line" />
+            <zone n="19" ulx="360" uly="2020" lrx="1723" lry="2121" rendition="Line"/>
+            <zone n="20" ulx="365" uly="2124" lrx="1713" lry="2210" rendition="Line" />
+            <zone n="21" ulx="374" uly="2216" lrx="1630" lry="2289" rendition="Line" />
+            <zone n="22" ulx="396" uly="2298" lrx="1714" lry="2385" rendition="Line" />
+        </surface>
+        <surface n="2">        
+            <graphic url="LL1.15_0002.jpg" width='1770px' height='2479px'/>
+            <zone n="1" ulx="135" uly="301" lrx="1596" lry="429" rendition="Line" />
+            <zone n="2" ulx="125" uly="407" lrx="1600" lry="533" rendition="Line" />
+            <zone n="3" ulx="191" uly="539" lrx="1528" lry="712" rendition="Line" />
+            <zone n="4" ulx="133" uly="668" lrx="1540" lry="845" rendition="Line" />
+            <zone n="5" ulx="132" uly="817" lrx="1576" lry="948" rendition="Line" />
+            <zone n="6" ulx="156" uly="955" lrx="1509" lry="1108" rendition="Line" />
+            <zone n="7" ulx="155" uly="1055" lrx="1609" lry="1251" rendition="Line" />
+            <zone n="8" ulx="125" uly="1216" lrx="1629" lry="1374" rendition="Line" />
+            <zone n="9" ulx="136" uly="1352" lrx="1607" lry="1489" rendition="Line" />
+            <zone n="10" ulx="132" uly="1472" lrx="1552" lry="1613" rendition="Line" />
+            <zone n="11" ulx="263" uly="1600" lrx="1605" lry="1753" rendition="Line" />
+            <zone n="12" ulx="192" uly="1749" lrx="1597" lry="1889" rendition="Line" />
+            <zone n="13" ulx="267" uly="1856" lrx="1612" lry="2030" rendition="Line" />
+            <zone n="14" ulx="300" uly="1977" lrx="1611" lry="2162" rendition="Line" />
+            <zone n="15" ulx="451" uly="2118" lrx="819" lry="2245" rendition="Line" />
+            <zone n="16" ulx="933" uly="2113" lrx="1421" lry="2296" rendition="Line" />
+            <zone n="17" ulx="1011" uly="2233" lrx="1543" lry="2432" rendition="Line" />
+        </surface>
+    </facsimile>
