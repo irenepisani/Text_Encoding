@@ -1,0 +1,222 @@
+/* FOGLIO DI STILE CSS PER PAGINA LISTE */
+
+body {margin:0;}
+
+/* ---- navbar ---- */
+#navbar{
+  background-color: #A00000;
+  min-height: 120px;
+  width: 100%;}
+
+#titolo {
+  font-family: 'Lora', serif;
+  font-size: 16px;
+  font-style: italic;
+  color:white;
+  float:left;
+  padding-left: 30px;
+  margin-top:15px;
+  margin-bottom:10px;}
+
+#titolo p {
+ padding-top:5px;
+ margin: 0;}
+
+#backhome {
+  font-family: 'Lora',serif;
+  font-size:15px;
+  float:right;
+  margin-top: 30px;
+  padding: 10px 0px 10px 0px;
+  margin-right: 30px;
+  border-radius:20px;
+  background-color: white;
+  color: grey;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+
+#backhome a:hover {
+color:black;}
+
+#backhome a {
+  padding: 40px 30px 40px 30px;
+  color:grey;
+  text-decoration: none;}
+
+
+#intestazione3 p {
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  font-size: 20px;
+  font-style:italic;
+  color: white;
+  margin-left:25px;
+  margin-top: 15px;}
+
+#intestazione2 p {font-size: 14px; margin-left:25px; font-style: normal;}
+#intestazione1 p {font-size: 14px; margin-left:25px; font-style: normal;}
+
+/* ---- slideshow ---- */
+.slideshow {
+	font-family: 'Lora',serif;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width:40%;
+	margin-right: 5%;
+	margin-left: 5%;	
+	text-align: center;
+	height: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+
+#slideshow-Bellini {float:left;}
+#slideshow-terms {float:right;}
+#slideshow-org {float:left;}
+#slideshow-bibl {float:right;}
+#slideshow-person {float:left;}
+#slideshow-fonti {float:right;
+	background-color: darkgrey;
+	color:white;}
+
+#slideshow-fonti p{
+	color:white;}
+
+.listtitle {
+	border-bottom:1px solid lightgrey;
+	padding-bottom:20px;
+	color:#A00000;
+	font-size:22px;}
+
+.etichetta {
+	color: black;
+	font-style:italic;
+	font-size:18px;
+	margin-bottom: 20px;
+	margin-left:50px;
+	margin-right: 50px;}
+
+.descrizione {
+	color:grey;
+	text-align:justify;
+	font-size: 15px;
+	margin-left:50px;
+	margin-right: 50px;
+	margin-bottom: 30px;}
+
+.titoloSlide{
+	color: black;
+	font-style:italic;
+	font-size:18px;
+	margin-left:20px;
+	margin-right: 20px;}
+
+.prev, .next {
+	cursor: pointer;
+	color: #888;
+	font-weight: bold;
+	font-size: 20px;}
+
+.next {
+	position:relative;
+	margin-right:20px;
+	right:0;
+	float:right;}
+
+.prev {
+	position: relative;
+	margin-left:20px;
+	left:0;
+	float:left;}
+
+.prev:hover, .next:hover {color: black;}
+
+.nascosto{visibility:hidden; display:none;}
+
+.titoloslide{
+	color: black;
+	font-style:italic;
+	font-size:18px;
+	margin-bottom: 20px;
+	margin-left:50px;
+	margin-right: 50px;}
+
+.testoslide {
+	color:grey;
+	text-align:justify;
+	font-size: 15px;
+	margin-left:50px;
+	margin-right: 50px;
+	margin-bottom: 30px;}
+
+.nascitaB{
+	color:grey;
+	text-align:justify;
+	font-size: 15px;
+	margin-left:50px;
+	margin-right: 50px;
+	margin-bottom: 30px; }
+
+.morteB{
+	color:grey;
+	text-align:justify;
+	font-size: 15px;
+	margin-left:50px;
+	margin-right: 50px;
+	margin-bottom: 30px;}
+
+.orgname{
+	color: black;
+	font-style:italic;
+	font-size:18px;
+	margin-bottom: 20px;
+	margin-left:50px;
+	margin-right: 50px;}
+
+.orgplace{
+	color:grey;
+	text-align:center;
+	font-size: 15px;
+	margin-left:50px;
+	margin-right: 50px;
+	margin-bottom: 30px;}
+
+.bibl{
+	color:grey;
+	text-align:justify;
+	font-size: 15px;
+	margin-left:50px;
+	margin-right: 50px;
+	margin-bottom: 30px;}
+
+.titolobibl{
+	text-align:center;
+	color: black;
+	font-style:italic;
+	font-size:18px;
+	margin-bottom: 20px;
+	margin-left:50px;
+	margin-right: 50px; }
+
+.linkfonte{
+	text-align:left;
+	color: grey;
+	font-style:normal;
+	font-size:12px;
+	text-decoration:none;}
+
+.linkfonte:hover {color:black;}
+
+.persona{
+	color:grey;
+	text-align:justify;
+	font-size: 15px;
+	margin-left:50px;
+	margin-right: 50px;
+	margin-bottom: 30px; }
+
+.nome{
+	text-align:center;
+	color: black;
+	font-style:italic;
+	font-size:18px;
+	margin-bottom: 20px;
+	margin-left:50px;
+	margin-right: 50px; }

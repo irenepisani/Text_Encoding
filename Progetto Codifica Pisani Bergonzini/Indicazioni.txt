@@ -1,0 +1,6 @@
+Indicazioni per il corretto funzionamento della presentazione del progetto Pisani-Bergonzini.
+La presentazione è composta da 4 pagine web distinte che sono collegate l'una con l'altra tramite link.
+Il file codificato si chiama "LL1_15.xml".
+La pagina iniziale della presentazione deve essere chiamata "homepage.html", nel momento in cui viene generata da "homepage.xsl".
+I file generati da "digitale.xsl", "originale.xsl", "liste.xsl" devono essere nominati rispettivamente "digitale.html", "originale.html", "liste.html".
+Per far funzionare una delle librerie jquery utilizzate è necessario usare Google Chrome.

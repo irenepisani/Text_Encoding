@@ -1,0 +1,152 @@
+
+/* foglio di stile CSS per risorsa originale */
+/*gestisco contenitore di righe di testo e testo riga */
+#mostratesto {display: none;height: 0px;}
+
+.overstrike {text-decoration: line-through;}
+
+.underline {text-decoration: underline;}
+
+.italic {font-style: italic;}
+
+#contienitesto {
+	height:50px;
+	border: 1px solid lightgrey;
+	font-family: 'Lora',serif;
+	font-size:15px;
+	width: 70%;
+  margin-right: 0px;
+	box-sizing: border-box;
+	background-color: white;
+	border-radius: 25px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top:30px;}
+
+/* gestisco imagemap */
+
+#risorsa {
+  margin-right: :5%;
+}
+img {width: 360px;}
+
+.contieniimg {
+	margin-top: 5%;
+	display: inline-block;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+
+#contenutoimage {
+	float:right;
+	margin-left: 5%;
+	width:60%;}
+
+/* informazioni sulla risorsa originale */
+.infolettera{
+  padding: 20px 20px 20px 20px;
+  float: left;
+  width: 25%;
+  margin-left:2.5%;
+  margin-right: 2.5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size: 13px;
+  font-family: 'Lora', serif;
+  font-size:13px;
+  flex-direction: column;
+  margin-top: 30px;
+  color:grey;
+  text-align: justify;
+
+}
+.titoloinfo{
+  color:black;
+  font-style: italic;
+}
+
+.infolettera label {
+  font-family: 'Lora', serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+  color:#A00000;
+}
+
+.infolettera p{
+  font-size: 15px;
+  font-family: 'Lora',serif; 
+  color:grey;}
+
+/* navbar */
+#intestazione3 p{
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  margin-top:15px;
+  font-size: 20px;
+  font-style:italic;
+  margin-left:25px;}
+
+#intestazione2 p {font-size: 12px; margin-left:25px; font-style: normal;}
+
+#intestazione1 p {font-size: 12px; margin-left:25px; font-style: normal;}
+
+a { text-decoration:none; color:grey; }
+
+a:hover {color:black;}
+
+#navbar {
+  background-color: #A00000;
+  min-height: 120px;
+  width: 100%;}
+
+#titolo {
+  font-family: 'Lora', serif;
+  font-size: 16px;
+  font-style: italic;
+  color:white;
+  float:left;
+  padding-left: 30px;
+  margin-top:15px;
+  margin-bottom:10px;}
+
+#titolo p {
+ padding-top:5px;
+ margin: 0;}
+
+#backhome {
+  font-family: 'Lora',serif;
+  font-size:15px;
+  float:right;
+  margin-top: 30px;
+  padding: 10px 0px 10px 0px;
+  margin-right: 30px;
+  border-radius:20px;
+  background-color: white;
+  color: grey;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+
+#backhome a:hover {color:black;}
+
+#backhome a {
+  padding: 40px 30px 40px 30px;
+  color:grey;
+  text-decoration: none;}
+
+/* generali */
+body {
+  max-width: 100%;
+  min-width: 100%;
+  margin:0;
+  box-sizing: border-box;
+	font-family: 'Lora', serif;
+	font-size: 15px ;
+	bottom:0;}
+
+#contenuto {min-height: 120%;}
+
+
+@media screen and (max-width: 600px) {  
+  .contieniimg img{width:150px; }
+  }
+
+

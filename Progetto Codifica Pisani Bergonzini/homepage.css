@@ -1,0 +1,211 @@
+
+/* generali */
+body {box-sizing: border-box; }
+
+/* navbar */
+#apertura {width:100%; height:auto;}
+
+#intestazione1{float:left; width:50%;}
+
+#intestazione1 p {margin-left:20px;}
+
+#logo {float:right; width:50%;}
+
+#logo img {float:right; width:60px; margin-right:20px;}
+
+#logo a {float:right; margin-right:20px; text-decoration:none; color:grey;}
+
+#logo a:hover {color:black;}
+
+#contenitoretitoli{
+	min-width: 100%;
+	min-height: 110px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+
+.container { padding: 10px 10px 10px 10px;
+	font-family: 'Lora', serif;
+	font-size: 13px;
+	font-style:italic;
+	color:grey;
+	background-color:white;
+	width:100%;
+	margin-top: 20px;
+	line-height: 20px; }
+
+/* titolo principale */
+
+#titolo {
+	margin-top: 20px;
+	font-family: 'Noto Serif KR', serif;
+	font-size: 40px;
+	text-align: center;
+	width: 80%;
+	margin-left:10%;
+	line-height:55px;
+	color: #A00000;
+	font-weight: 500;}
+
+#titolop {
+	width:80%;
+	margin-left: 10%;
+	padding-top:20px;
+	font-family: 'Noto Serif KR', serif;
+	font-size: 30px;
+	line-height:50px;
+	color: #A00000;
+	font-weight: 700;
+	text-align: center; }
+
+/* opzioni di navigazione tra le pagine */
+.imagelink {width:100%; }
+
+#naviga img:hover {opacity: 0.5;}
+
+#naviga {
+	margin-top:30px;
+	width:70%;
+	margin-left: 15%;}
+
+div.refimg {
+	font-size:15px;
+	font-weight: 400;
+	position: relative;
+  font-family: 'Lora', serif;
+  font-style: italic;
+  font-weight: 400;
+  width: 30%;
+  margin-left:2%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  display: inline-block;}
+
+div.refimg:hover {box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);}
+
+.textblock {
+	border-radius: 5px 0px 0px 5px;
+  position: absolute;
+	bottom: 20px;
+  right: 0px;
+	background-color:#A00000;
+	opacity:0.9;
+	color:white;
+ 	width:80%;
+ 	text-align: center; 
+	padding: 15px 12px 15px 12px; }
+
+.textblock:hover { opacity:1;}
+
+/* generali */
+*,
+:after,
+:before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* bottone scroll animato */
+#scroll{width:100%;}
+
+ #scroll p{
+ 	width:20%;
+ 	margin-left:40%;
+  color: grey;
+  font-family: 'Lora', serif;
+  text-align: center;}
+
+.scroll-down {
+  opacity: 1;
+  -webkit-transition: all .5s ease-in 3s;
+  transition: all .5s ease-in 3s;}
+
+.scroll-down p:hover {color:grey;}
+
+.scroll-down {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  margin-left: -16px;
+  display: block;
+  width: 32px;
+  height: 32px;
+  border: 2px solid grey;
+  background-size: 14px auto;
+  border-radius: 50%;
+  z-index: 2;
+  -webkit-animation: bounce 2s infinite 2s;
+  animation: bounce 2s infinite 2s;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;}
+
+.scroll-down:before {
+    position: absolute;
+    top: calc(50% - 8px);
+    left: calc(50% - 6px);
+    transform: rotate(-45deg);
+    display: block;
+    width: 12px;
+    height: 12px;
+    content: "";
+    border: 2px solid grey;
+    border-width: 0px 0 2px 2px;}
+
+@keyframes bounce {
+  0%,
+  100%,
+  20%,
+  50%,
+  80% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  60% {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+} 
+
+/* crediti e bibbliografia */
+.label {
+	padding-top: 50px;
+	color:white;
+	font-size: 20px;
+	text-align: center;
+	font-weight: 600;}
+  
+#crediti_bibliografia {
+	display: inline-flex;
+	position:relative;
+	border-radius: 8px;
+	margin-top: 15%;
+	font-family: 'Lora', serif;
+	font-size: 12px;
+	line-height: 15px;
+	width: 80%;
+	margin-left:10%;
+	background-color: darkgrey;
+	color:white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-bottom:30px;}
+
+#bibliografia {
+	width: 70%;
+	text-align: justify;
+	margin-bottom: 30px;}
+
+.print {position:relative; padding-top:15px; margin-left: 30px; margin-right: 30px;}
+
+.opera {font-style:italic;}
+
+#crediti {
+	width:30%;
+	vertical-align: middle;}

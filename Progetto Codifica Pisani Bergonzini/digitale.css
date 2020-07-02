@@ -1,0 +1,200 @@
+/* FOGLIO DI STILE CSS PER RISORSA DIGITALE */
+
+/* navbar */
+#navbar{
+  background-color: #A00000;
+  min-height: 120px;
+  width: 100%;}
+
+#titolo {
+  font-family: 'Lora', serif;
+  font-size: 16px;
+  font-style: italic;
+  color:white;
+  float:left;
+  padding-left: 30px;
+  margin-top:15px;
+  margin-bottom:10px;}
+
+#titolo p {padding-top:5px; margin: 0;}
+
+#backhome {
+  font-family: 'Lora',serif;
+  font-size:15px;
+  float:right;
+  margin-top: 30px;
+  padding: 10px 0px 10px 0px;
+  margin-right: 30px;
+  border-radius:20px;
+  background-color: white;
+  color: grey;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+
+#backhome a:hover {color:black;}
+
+#backhome a {
+  padding: 40px 30px 40px 30px;
+  color:grey;
+  text-decoration: none;}
+
+#intestazione3 p{
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  margin-top:15px;
+  font-size: 20px;
+  font-style:italic;
+  margin-left:25px;
+}
+
+#intestazione2 p {font-size: 14px; margin-left:25px; font-style: normal;}
+#intestazione1 p {font-size: 14px; margin-left:25px; font-style: normal;}
+
+/* generali */ 
+body {
+  max-width: 100%;
+  min-width: 100%;
+  margin:0;
+  box-sizing: border-box;
+	font-family: 'Lora', serif;
+	font-size: 15px ;}
+
+/* crea tooltip */
+.tooltip {
+  position: relative;
+  display: inline-block;}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  min-width: 100px;
+  max-height: auto;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  right: 10px;
+  top:auto;
+  opacity: 0;
+  transition: opacity 0.3s;}
+
+.tooltiptext{
+	line-height: 15px;
+	font-size:12px; }
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;}
+
+/* rappresenta hi attributo rend */
+.dx {text-align:right;}
+
+.underline {text-decoration: underline;}
+
+.italic {font-style: italic;}
+
+.overstrike {text-decoration: line-through;}
+
+#contienipage {width:100%;}
+
+#titolopagina {
+  width:100%;
+  text-align: left;
+  padding-left: 40px;
+  color: #A00000;
+  font-size:30px; }
+
+/* box informazioni */
+.infolettera{
+  padding: 20px 20px 20px 20px;
+  float: left;
+  width: 25%;
+  margin-left:2.5%;
+  margin-right: 2.5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size: 13px;
+  font-family: 'Lora', serif;
+  font-size:13px;
+  flex-direction: column;
+  margin-top: 30px;}
+
+label {
+  font-family: 'Lora', serif;
+  font-size: 20px;
+  text-align: center;
+  color:#A00000;}
+
+.infolettera svg {
+  float:left;
+  margin-right: 10px;}
+
+.infolettera #legenda p {
+  float:right;}
+
+#legenda p{
+  font-size: 15px;
+  font-family: 'Lora',serif; 
+  color:grey;}
+
+.infospan{
+  color:black;
+  font-style: italic;}
+
+.infolettera span .hidden{
+  visibility: hidden;
+  display: none;}
+  
+.infolettera p{
+  font-size: 15px;
+  font-family: 'Lora',serif; 
+  color:grey;}
+
+#infodigitali {
+  font-size: 15px;
+  font-family: 'Lora',serif; 
+  color:grey;}
+
+/* testo lettera */
+#testolettera{
+  margin-top: 30px;
+  float:right;
+  width:40%;
+  margin-right:15%; 
+  text-align: justify;
+  font-size: 15px;
+  color:grey;
+}
+/* note lettera */
+#notelettera{
+  margin-top: 30px;
+  text-align: justify;
+  float:right;
+  width:55%;
+  margin-right:5%; 
+  font-size: 15px;
+  color:grey;}
+
+/*evidenzia categorie */
+.coloratoPerson {background-color: #ffd9b3;}
+
+.coloratoOrg {background-color: #ffb3cc;}
+
+.coloratoTerm {background-color: #ccffe6;}
+
+.coloratoPlace {background-color: #ffffcc;}
+
+.coloratoWork {background-color: #cce6ff;}
+
+.coloratoForma {background-color: #ccccff;}
+
+/* generali */
+a { text-decoration:none; color:grey; }
+a:hover {color:black;}
+.nascostopage { visibility: hidden; display:none;}
+#corpolettera {
+min-height: 200%;
+height: auto !important;
+height: 100%;}
+
